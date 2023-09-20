@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment Gateway</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <img src="data:image/jpeg;base64,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" alt="">
+    <button id="rzp-button1">BuyNow</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+      var orderId ;
+      $(document).ready(function(){
+          var settings = {
+        "url": "/create/orderId",
+        "method": "POST",
+        "timeout": 0,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "data": JSON.stringify({
+          "amount": "50000"
+        }),
+      };
+
+      //creates new orderId everytime
+      $.ajax(settings).done(function(response) {
+        console.log(response.id);
+
+        var options = {
+              "key": "rzp_test_su4golw5GKBuc4", // Enter the Key ID generated from the Dashboard
+              "amount": response.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+              "currency": "INR",
+              "name": "Dheriyans pvt.ltd",
+              "description": "So smooth",
+              "image": "https://example.com/your_logo",
+              "order_id": response.id , //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+              "handler": function (response){
+                var settings1 = {
+                    "url": "/api/payment/verify",
+                    "method": "POST",
+                    "timeout": 0,
+                    "headers": {
+                      "Content-Type": "application/json"
+                    },
+                    "data": JSON.stringify({response}),
+                  }
+                  $.ajax(settings1).done(function(response){{
+                    if(response.signatureIsValid == true){
+                      window.location.href = '/success'
+                    }else{
+                      alert('payment failed')
+                    }
+                  }})
+              },
+              "notes": {
+                  "address": "Razorpay Corporate Office"
+              },
+              "theme": {
+                  "color": "#3399cc"
+              }
+          };
+          var rzp1 = new Razorpay(options);
+          rzp1.on('payment.failed', function (response){
+                  alert(response.error.code);
+                  alert(response.error.description);
+                  alert(response.error.source);
+                  alert(response.error.step);
+                  alert(response.error.reason);
+                  alert(response.error.metadata.order_id);
+                  alert(response.error.metadata.payment_id);
+          });
+          document.getElementById('rzp-button1').onclick = function(e){
+              rzp1.open();
+              e.preventDefault();
+          }
+
+        // orderId=response.orderId;
+        // console.log(orderId);
+        $("button").show();
+      });
+      });
+    </script>
+  </body>
+</html>
